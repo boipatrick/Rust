@@ -1,9 +1,0 @@
-##Intro
-
-Cargo is the Rust’s build system and package manager.
-
-Cargo new- creates a new project
-Cargo build - builds a project
-Cargo run - builds and runs a project in one step
-Cargo check - builds a project without producing a binary to check for errors
-
