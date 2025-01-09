@@ -1,22 +1,9 @@
-## Intro
+##Intro
+
 Cargo is the Rust’s build system and package manager.
 
 Cargo new- creates a new project
-
 Cargo build - builds a project
-
 Cargo run - builds and runs a project in one step
-
-
 Cargo check - builds a project without producing a binary to check for errors
 
-
-## Functions
-- Prevalent in rust
-
-- main function is the entry point of most programs
-
-- fn allows us to create a function
-
-- rust code uses snake case- in which all letters are lowercase and underscores separate
-words.
