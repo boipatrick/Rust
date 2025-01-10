@@ -77,3 +77,50 @@ We use square brackets []
 
 - rust code uses snake case- in which all letters are lowercase and underscores separate
 words.
+
+### Statements and Expressions
+
+## Functions With return Values
++ Functions can return values to the code that calls them
+
+## Comments
+- In Rust, the idiomatic comment style starts a comment with two slashes,
+and the comment continues until the end of the line.
+
+// Comment goes here.
+
+## Control Flow
+
++ The ability to run some code depending on whether a condition is true and to run some code repeatedly while a condition is true are basic building
+blocks in most programming languages.
++ The most common constructs that let you control the flow of execution of Rust code are if expressions and loops.
+
+### If Expressions
+
+- “If this condition is met, run this block of code. If the condition is not met, do not run this block of code.”
+- Unlike other languages such as Ruby and JavaScript, Rust will not automatically try to
+convert non-Boolean types to a Boolean. You must be explicit and always
+provide if with a Boolean as its condition.
+
+### Handling multiple conditions with else if
+- You can use multiple conditions by combining if and else in an else if
+expression.
+
+- Using too many else if expressions can clutter your code, so if you have
+more than one, you might want to refactor your code.
+
+- A powerful Rust branching construct called match is used for these cases.
+
+
+## Repition with Loops
+- Rust has three types loop, while and for.
+
++ The loop keyword tells Rust to execute a block of code over and over again
+forever or until you explicitly tell it to stop.
+
+fn main() {
+    loop {
+println!("again!");
+}
+}
+
