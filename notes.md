@@ -126,6 +126,25 @@ println!("again!");
 
 ## Rust successfully Installed
 
+### Conditional Loops with while
 
+Stack
+Heap - disorganized
+
++ Pushing to the stack is faster than allocating on the heap because the allocator never
+has to search for a place to store new data; that location is always at the top of the stack.
+
+### Ownership Rules
+Each value in Rust has an owner.
+There can only be one owner at a time.
+When the owner goes out of scope, the value will be dropped.
+
+## Variable scope
+
+The String Type
+
+## Memory and Allocation
+
++ 
 
 ## Understanding Ownership in Rust"
