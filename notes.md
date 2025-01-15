@@ -148,3 +148,5 @@ The String Type
 + 
 
 ## Understanding Ownership in Rust"
+
+## String Literals as Slices
