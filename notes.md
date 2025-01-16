@@ -150,3 +150,8 @@ The String Type
 ## Understanding Ownership in Rust"
 
 ## String Literals as Slices
++ In the case of a string literal, we know the contents at compile time, so the
+text is hardcoded directly into the final executable. 
+
++ This is why string literals are fast and efficient. But these properties only come from the string literal’s
+immutability. 
