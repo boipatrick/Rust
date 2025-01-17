@@ -155,3 +155,15 @@ text is hardcoded directly into the final executable.
 
 + This is why string literals are fast and efficient. But these properties only come from the string literal’s
 immutability. 
+
++ Unlike other languages Rust takes a different path: the memory is automatically returned once the
+variable that owns it goes out of scope.
+
++ There is a natural point at which we can return the memory our String needs to the allocator: when s goes out of scope. 
++ When a variable goes out of scope, Rust calls a special function for us. This function is called drop, and
+it’s where the author of String can put the code to return the memory.
+
++ Rust calls drop automatically at the closing curly bracket.
+
+
+### Variable and Data Interacting with Move
