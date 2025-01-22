@@ -169,3 +169,7 @@ it’s where the author of String can put the code to return the memory.
 ### Variable and Data Interacting with Move
 
 ### Variables and Data Interacting with Clones
+
+### Stack-Only Data : Copy
+
+### Ownership and Functions
