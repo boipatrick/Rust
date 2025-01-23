@@ -167,6 +167,12 @@ it’s where the author of String can put the code to return the memory.
 
 
 ### Variable and Data Interacting with Move
++ Multiple variables can interact with the same data in different ways in Rust.
+
++ The length(of a string) is how much memory, in bytes, the contents of the String are
+currently using. 
++ The capacity is the total amount of memory, in bytes, that the
+String has received from the allocator
 
 ### Variables and Data Interacting with Clones
 
